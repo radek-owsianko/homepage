@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(252, 168, 168);
+}
+h1 {
+   font-family: verdana;
+   font-size: x-large;
+    
+    text-align: center;
+    color: #083a97;
+    border: 1px solid;
+}
+h2 {
+    color:#1460AA;
+    border-style: outset;
+    position: center;
+    text-align: center;
+    
+}
+h3 {
+    margin: 30px;
+    border: 1px solid;
+    color:red;
+}
+p  {
+    background-color: lightblue;
+}
+footer{
+font-size: unset;
+}
+img {
+    position: initial;
+}
+a{
+    color:#0609d1;
+}
+.blue-h2 {
+    color: blue;
+}
+#top {
+    font-size: 45px;
+    color: #702c2c;
+}
+nav a {
+    color: red;
+}
