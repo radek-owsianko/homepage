@@ -10,36 +10,46 @@ body {
 button {
   background-color: rgb(24, 157, 240);
 }
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 footer {
   font-size: unset;
 }
 .header {
   background-color: #afd6fafe;
 }
-.header-h1 {
+.about__h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   text-align: center;
   border: 1px solid;
   color: rgb(2, 2, 141);
 }
-.header-h2 {
+.about__h2 {
   color: rgb(30, 30, 207);
   border-style: outset;
   position: center;
   text-align: center;
 }
-.header-h3 {
+.about__h3 {
   color: rgb(12, 12, 245);
   margin: 30px;
   border: 1px solid;
 }
 img {
+  max-width: 1000px;
+  max-height: 400px;
   position: initial;
 }
 
 li {
   color: #045daa;
+}
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 nav a {
   color: rgb(24, 4, 136);
