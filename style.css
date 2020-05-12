@@ -1,61 +1,56 @@
 a {
-    color: #0716e2fe;
+  color: #0716e2fe;
 }
 .adres p {
-    color:#030430;
+  color: #030430;
 }
-body{
-    background-color: rgb(220, 198, 250);
+body {
+  background-color: rgb(220, 198, 250);
 }
 button {
-    background-color: rgb(24, 157, 240);
+  background-color: rgb(24, 157, 240);
 }
 footer {
-    font-size: unset;
-    }
+  font-size: unset;
+}
 .header {
-        background-color: #afd6fafe;
-    }
+  background-color: #afd6fafe;
+}
 .header-h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: x-large;
-         text-align: center;
-         border: 1px solid;
-        color: rgb(2, 2, 141);
-    }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  border: 1px solid;
+  color: rgb(2, 2, 141);
+}
 .header-h2 {
-        color: rgb(30, 30, 207);
-        border-style: outset;
-        position: center;
-        text-align: center;
-    }
+  color: rgb(30, 30, 207);
+  border-style: outset;
+  position: center;
+  text-align: center;
+}
 .header-h3 {
-        color: rgb(12, 12, 245);
-        margin: 30px;
-        border: 1px solid;
-    }
+  color: rgb(12, 12, 245);
+  margin: 30px;
+  border: 1px solid;
+}
 img {
-        position: initial;
-    }
-    
+  position: initial;
+}
+
 li {
-        color:#045daa;
-    }
+  color: #045daa;
+}
 nav a {
-        color: rgb(24, 4, 136);
-        font-weight: 900;
-    }
-p  {
-    background-color: rgb(200, 189, 226);
-    font-style: italic;
-    color: #0a48b9;
+  color: rgb(24, 4, 136);
+  font-weight: 900;
+}
+p {
+  background-color: rgb(200, 189, 226);
+  font-style: italic;
+  color: #0a48b9;
 }
 #top {
-    font-size: 45px;
-    color: #702c2c;
+  font-size: 45px;
+  color: #702c2c;
 }
-
-
-
-
-
