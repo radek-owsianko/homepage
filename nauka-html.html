@@ -10,54 +10,59 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <a href="index.html">STRONA GŁÓWNA</a>
-            <a href="nauka-html.html">HTML</a>
-            <a href="nauka-css.html">CSS</a>
-            <a href="nauka-javascript.html">JAVASCRIPT</a>
+    <header class="menu__header">
+        <nav class="navigation">
+          <a class="navigation__link navigation__link--homepage" href="index.html">STRONA GŁÓWNA</a>
+          <a class="navigation__link" href="nauka-html.html">HTML</a>
+          <a class="navigation__link" href="nauka-css.html">CSS</a>
+          <a class="navigation__link" href="nauka-javascript.html">JAVASCRIPT</a>
         </nav>
-    </header>
+      </header>
     <main class="main">
-        <header id="top">
-            <h1 class="header-h1">Radek Owsianko - Nauka HTML</h1>
-            <hr>
+        <header class="main__header" id="top">
+            <h1 class="main_header__h1">Radek Owsianko - Nauka HTML</h1>
+            <br>
         </header>
         
-        <section>
-            <h2 class="header-h2"> Moje ulubione tagi </h2>
-            <article>
-                <h3 class="header-h3">Jak stworzyć HTML?</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+        <section class="about">
+            <h2 class="about__h2"> Moje ulubione tagi </h2>
+            <article class="week-summary">
+                <h3 class="about__h3">Jak stworzyć HTML?</h3>
+                <p class="week-summary__destription">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
         printer took a galley of type and scrambled it to make a type specimen book. </p>
             </article>
-            <article>
-                <h3 class="header-h3">Inne tagi</h3>
-                <p>It has survived 
+            <article class="week-summary">
+                <h3 class="about__h3">Inne tagi</h3>
+                <p class="week-summary__destription">It has survived 
                     not only five centuries, but also the leap into electronic typesetting, remaining essentially 
                     unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
                     Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
                     including versions of Lorem Ipsum.</p>
-                <p>Jeżeli masz ochotę trochę poczytać o HTML-u to zapraszam Cie na stronę: <a
-                        href="https://www.w3schools.com">w3schols</a></p>
+                <p class="week-summary__destription">Jeżeli masz ochotę trochę poczytać o HTML-u to zapraszam Cie na stronę: <a
+                    class="about__link" href="https://www.w3schools.com">w3schols</a></p>
             </article>
-            <article class="obrazek">
-                <h3 class="header-h3">Ponadto poczyajcie sobie to:</h3>
-                <p>Ponadto można u mnie oglądać różne obrazki
-                    <img src="Dragon_Ball.jpg" alt="dragon_ball">
+            <article class="week-summary week-summary__picture">
+                <h3 class="about__h3">Ponadto poczyajcie sobie to:</h3>
+                <p class="week-summary__destription">Ponadto można u mnie oglądać różne obrazki
+                    <img class="about__picture" src="Dragon_Ball.jpg" alt="dragon_ball">
                    
             </article>
         </section>
-
         <br>
-        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+        <section class="about">
+            <h3 class="about__h3">Może sróbuj znaleźć coś ciekawego na tej stronie:</h3>
+        <a class="about__link" href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    </section>
     </main>
-</br>
-    <footer class="footer" id="stopka">
-        <i>Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele edukacyjne.</i><br>
-        <p>Przejdz do góry strony<a href="#top"> TUTAJ</a></p>
-    </footer>
+<br>
+<footer class="footer" id="stopka">
+    <i class="footer__i">Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele
+      edukacyjne.</i
+    ><br />
+    <p class="week-summary__destription">Przejdz do góry strony<a class="about__link" href="#top"> TUTAJ</a></p>
+  </footer>
+
     <script src="main.js"></script>
 </body>
 

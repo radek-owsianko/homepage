@@ -1,7 +1,5 @@
-const firstName = 'Radek';
+const firstName = "Radek";
 const age = 34;
-
-
 
 console.log(firstName);
 console.log(age);

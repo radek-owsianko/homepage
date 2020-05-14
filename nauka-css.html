@@ -1,95 +1,128 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-    <header class="header">
-        <nav>
-            <a href="index.html">STRONA GŁÓWNA</a>
-            <a href="nauka-html.html">HTML</a>
-            <a href="nauka-css.html">CSS</a>
-            <a href="nauka-javascript.html">JAVASCRIPT</a>
-        </nav>
+  <body>
+    <header class="menu__header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >STRONA GŁÓWNA</a
+        >
+        <a class="navigation__link" href="nauka-html.html">HTML</a>
+        <a class="navigation__link" href="nauka-css.html">CSS</a>
+        <a class="navigation__link" href="nauka-javascript.html">JAVASCRIPT</a>
+      </nav>
     </header>
     <main class="main">
-        <header id="top">
-            <h1 class="header-h1">Radek Owsianko - Nauka CSS</h1>
-            <hr>
-        </header>
-        <section>
-            <h2 class="header-h2">Jak się uczyć</h2>
+      <header class="main__header" id="top">
+        <h1 class="main_header__h1">Radek Owsianko - Nauka CSS</h1>
+        <hr />
+      </header>
+      <section class="about">
+        <h2 class="about__h2">Jak się uczyć</h2>
+        <article class="week-summary">
+          <h3 class="about__h3">Mała podpowiedź</h3>
+          <p class="week-summary__destription">
+            Proponuję ćwiczyć ćwiczyć i jeszcze raz ćwiczyć:) <br />
+            Wiem, że to rudne ale: <br />
+            <a class="about__link" href="https://www.dystryktzero.pl/dragonball/" target="_blank">
+              Albo możesz też odwiedźić Nasz sklep o Dragon Ballu</a
+            >
+          </p>
+          <p class="week-summary__destription">
+            Ponadto możesz też mnie zobaczyć poniżej
+            <a class="about__link" href="#obrazek">Zobacz mnie</a>
+          </p>
+          <p class="week-summary__destription">
+            Możesz też sprawdzić moją stopkę -
+            <a class="about__link" href="#stopka">Przejż na dół strony</a>
+          </p>
+        </article>
+      </section>
+      <section class="about">
+        <h2 class="about__h2">Gdzie się uczyć</h2>
+        <article class="week-summary">
+          <h3 class="about__h3">Sciąga z notatek</h3>
+          <p class="week-summary__destription">
+            Wejdz na stronę Korsana i ściągaj ile wlezie:)
+          </p>
+        </article>
+        <article class="week-summary">
+          <h3 class="about__h3">Inne źródła</h3>
+          <p class="week-summary__destription">
+            Jeżeli masz ochotę trochę poczytać o HTML-u to zapraszam Cie na
+            stronę: <a class="about__link" href="https://www.w3schools.com">w3schols</a>
+          </p>
+        </article>
+        <article class="week-summary">
+          <h3 class="about__h3">Może zrobimy jakąś listę</h3>
+          <p class="week-summary__destription">Nie numerowaną</p>
+          <ul class="about__list about__list--ul">
+            <li>Kawa</li>
+            <li>Herbata</li>
+            <li>Mleko</li>
+          </ul>
+          <p class="week-summary__destription">Numerowaną</p>
+          <ol class="about__list about__list--ol">
+            <li>Piwo</li>
+            <li>Wino</li>
+            <li>Wódka</li>
+          </ol>
+        </article>
+        <br />
+        <article class="week-summary">
+          <h3 class="about__h3">A może chcesz napisać do Maćka?</h3>
+          <p class="week-summary__destription">Jego adres to:</p>
+          <address class="adres">
+            <p
+              class="week-summary__destription week-summary__destription--adres"
+            >
+              ul. Błotna <br />
+              adres zachlapany <br />
+              miasto: Hulajdusza<br />
+            </p>
+          </address>
+        </article>
+        <article class="week-summary">
+          <h3 class="about__h3">A teraz zrobimy coś na opak.</h3>
+          <p class="week-summary__destription">
+            Przeczytaj poniższy napis od tyłu tzn. od prawej do lewej.
+          </p>
+          <p class="week-summary__destription week-summary__destription--reverse">
+          <bdo dir="rtl"
+            >TEN NAPIS BĘDZIE PISANY W KOLEJNOŚCI OD PRAWEJ DO LEWEJ</bdo
+          >
+        </p>
+        </article>
         
+      </section>
+      <hr />
+      <!-- To jest niby komentarz-->
 
-            <p>Proponuję ćwiczyć ćwiczyć i jeszcze raz ćwiczyć:) <br/>
-                Wiem, że to rudne ale: <br/>
-                    <a href="https://www.dystryktzero.pl/dragonball/" target="_blank">
-                        Albo możesz też odwiedźić Nasz sklep o Dragon Ballu</a>
-            </p>
-            <p>
-                Ponadto możesz też mnie zobaczyć poniżej <a href="#obrazek">Zobacz mnie</a>
-            </p>
-            <p>
-                Możesz też sprawdzić moją stopkę - <a href="#stopka">Przejż na dół strony</a>
-            </p>
-        </section>
-        <section>
-            <h2 class="header-h2"> Gdzie się uczyć </h2>
-            <article>
-                <h3 class="header-h3">Sciąga z notatek</h3>
-                <p>Wejdz na stronę Korsana i ściągaj ile wlezie:)</p>
-            </article>
-          
-                <p>Jeżeli masz ochotę trochę poczytać o HTML-u to zapraszam Cie na stronę: <a
-                        href="https://www.w3schools.com">w3schols</a></p>
-            
-           
-
-            <article>
-                <h3 class="header-h3">Może zrobimy jakąś listę</h3>
-                <p>Nie numerowaną</p>
-                <ul>
-                    <li>Kawa</li>
-                    <li>Herbata</li>
-                    <li>Mleko</li>
-                </ul>
-                <p>Numerowaną</p>
-                <ol>
-                    <li>Piwo</li>
-                    <li>Wino</li>
-                    <li>Wódka</li>
-                </ol>
-            </article>
-          
-                <br>
-                <p>Jego adres to:</p>
-                <address>
-                    ul. Błotna <br>
-                    adres zachlapany <br>
-                    miasto: Hulajdusza<br>
-                </address>
-                <bdo dir="rtl">TEN NAPIS BĘDZIE PISANY W KOLEJNOŚCI OD PRAWEJ DO LEWEJ</bdo>
-        </section>
-        <hr>
-        <!-- To jest niby komentarz-->
-
-        <br>
-        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+      <br />
+      <section class="about">
+        <h3 class="about__h3">Dodatkowy link</h3>
+        <a class="about__link" href="https://www.w3schools.com/" target="_blank"
+          >Visit W3Schools!</a
+        >
+      </section>
     </main>
-</br>
+    <br />
     <footer class="footer" id="stopka">
-        <i>Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele edukacyjne.</i><br>
-        <p>Przejdz do góry strony<a href="#top"> TUTAJ</a></p>
+      <i class="footer__i"
+        >Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele
+        edukacyjne.</i
+      ><br />
+      <p class="week-summary__destription">
+        Przejdz do góry strony<a class="about__link" href="#top"> TUTAJ</a>
+      </p>
     </footer>
 
     <script src="main.js"></script>
-
-</body>
-
+  </body>
 </html>

@@ -1,66 +1,81 @@
-a {
-  color: #0716e2fe;
-}
-.adres p {
-  color: #030430;
-}
+
 body {
-  background-color: rgb(220, 198, 250);
+  background-color: #FFF1D0;
 }
 button {
   background-color: rgb(24, 157, 240);
 }
-.footer {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-footer {
-  font-size: unset;
-}
+
+
 .header {
   background-color: #afd6fafe;
 }
-.about__h1 {
-  font-family: Arial, Helvetica, sans-serif;
+.main_header__h1 {
   font-size: x-large;
   text-align: center;
-  border: 1px solid;
-  color: rgb(2, 2, 141);
+  font-family: 'Copperplate Gothic Light';
+  color: #DD1C1A;
 }
 .about__h2 {
-  color: rgb(30, 30, 207);
+  color: #DD1C1A;
   border-style: outset;
   position: center;
   text-align: center;
+  font-family: 'Copperplate Gothic Light';
 }
 .about__h3 {
-  color: rgb(12, 12, 245);
+  font-family: 'Copperplate Gothic Light';
+  color: #DD1C1A;
   margin: 30px;
-  border: 1px solid;
+ 
 }
-img {
-  max-width: 1000px;
-  max-height: 400px;
+.about__picture {
+  max-width: 900px;
+  max-height: 300px;
   position: initial;
+  margin: 0 auto;
 }
 
 li {
-  color: #045daa;
+  color: #D90368;
 }
 .main {
   max-width: 1000px;
   margin: 0 auto;
 }
-nav a {
-  color: rgb(24, 4, 136);
+.navigation__link {
+  color: #D90368;
   font-weight: 900;
+  padding: 0 5px;
+}
+.navigation__link--homepage {
+background-color: rgba(250, 246, 246, 0.911);
 }
 p {
   background-color: rgb(200, 189, 226);
   font-style: italic;
-  color: #0a48b9;
+  color: #DD1C1A;
 }
 #top {
   font-size: 45px;
   color: #702c2c;
+}
+
+.week-summary__destription {
+  background-color: rgba(250, 246, 246, 0.911);
+}
+.about__link {
+  color: #D90368;
+}
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: unset;
+}
+.footer__i {
+  color: #DD1C1A;
+}
+.week-summary__destription--reverse {
+  color: #DD1C1A;
+  font-weight: bold;
 }

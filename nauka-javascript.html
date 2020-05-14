@@ -10,54 +10,63 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <a href="index.html">STRONA GŁÓWNA</a>
-            <a href="nauka-html.html">HTML</a>
-            <a href="nauka-css.html">CSS</a>
-            <a href="nauka-javascript.html">JAVASCRIPT</a>
+    <header class="menu__header">
+        <nav class="navigation">
+          <a class="navigation__link navigation__link--homepage" href="index.html">STRONA GŁÓWNA</a>
+          <a class="navigation__link" href="nauka-html.html">HTML</a>
+          <a class="navigation__link" href="nauka-css.html">CSS</a>
+          <a class="navigation__link" href="nauka-javascript.html">JAVASCRIPT</a>
         </nav>
-    </header>
+      </header>
     <main class="main">
-        <header id="top">
-            <h1 class="header-h1"> Radek Owsianko - Nauka JavaScript</h1>
+        <header class="main__header" id="top">
+            <h1 class="main_header__h1"> Radek Owsianko - Nauka JavaScript</h1>
             <hr>
         </header>
-        <section>
-            <h2 class="header-h2">
+        <section class="about">
+            
+            <h2 class="about__h2">
                 Co My możemy się tutaj dowiedzieć?
             </h2>
-            <p>
+            <article class="week-summary">
+                <h3 class="about__h3">A może w formie listy?</h3>
+            <p class="week-summary__destription">
                 A no po pierwsze:</p>
-            <ul>
+            <ul class="about__list about__list--ul">
                 <li>czytaj</li>
                 <li>słuchaj</li>
                 <li>ogladaj</li>
                 <li>wąchaj</li>
                 <li>i przede wszystkim ćwicz</li>
             </ul>
-
+        </article>
         </section>
 
-        <section>
-            <h2 class="header-h2"> Ponadto możemy też się uczyć z kursu Maćka Korsana</h2>
-            <p>Proponuję wejść na jego stronę<a href="https://cotenfrontend.pl/" target="_blank"> tutaj</a></p>
+        <section class="about">
+            
+            <h2 class="about__h2"> Ponadto możemy też się uczyć z kursu Maćka Korsana</h2>
+            <article class="week-summary">
+                <h3 class="about__h3">Ciekawe co on sam ma na ten temat do powiedzenia:)</h3>
+            <p class="week-summary__destription">Proponuję wejść na jego stronę<a class="about__link" href="https://cotenfrontend.pl/" target="_blank"> tutaj</a></p>
+        </article>
         </section>
-        <section>
-            <h2 class="header-h2">Tak dla poćwiczenia polecam zdjęcie:</h2>
+        <section class="about">
+            <h2 class="about__h2">Tak dla poćwiczenia polecam zdjęcie:</h2>
             <article>
-                <h3 class="header-h3"> Poniżej widzimy ciekawe zdjęcie</h3>
+                <h3 class="about__h3"> Poniżej widzimy ciekawe zdjęcie</h3>
                 <br />
-                <p>Zobacz to: <img src="dragon-kakarot.webp" alt="smok"></p>
+                <p class="week-summary__destription">Zobacz to: <img class="about__picture" src="dragon-kakarot.webp" alt="smok"></p>
             </article>
         </section>
 
     </main>
-</br>
-    <footer class="footer" id="stopka">
-        <i>Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele edukacyjne.</i><br>
-        <p>Przejdz do góry strony<a href="#top"> TUTAJ</a></p>
-    </footer>
+<br>
+<footer class="footer" id="stopka">
+    <i class="footer__i">Strona domowa Radka Owsianko. Wszystkie treści są tworzone na cele
+      edukacyjne.</i
+    ><br />
+    <p class="week-summary__destription">Przejdz do góry strony<a class="about__link" href="#top"> TUTAJ</a></p>
+  </footer>
     <script src="main.js"></script>
 </body>
 
