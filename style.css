@@ -1,9 +1,12 @@
 
 body {
   background-color: #FFF1D0;
+  background: rgb(2,0,36);
+background: linear-gradient(291deg, rgba(2,0,36,1) 0%, rgba(215,207,207,0) 100%);
+
 }
 button {
-  background-color: rgb(24, 157, 240);
+  background-color: rgb(201, 199, 199);
 }
 
 
@@ -14,10 +17,10 @@ button {
   font-size: x-large;
   text-align: center;
   font-family: 'Copperplate Gothic Light';
-  color: #DD1C1A;
+  color: rgb(10, 9, 9);
 }
 .about__h2 {
-  color: #DD1C1A;
+  color: rgb(10, 9, 9);
   border-style: outset;
   position: center;
   text-align: center;
@@ -25,7 +28,7 @@ button {
 }
 .about__h3 {
   font-family: 'Copperplate Gothic Light';
-  color: #DD1C1A;
+  color: rgb(53, 51, 51);
   margin: 30px;
  
 }
@@ -37,35 +40,43 @@ button {
 }
 
 li {
-  color: #D90368;
+  color: rgb(10, 9, 9);
 }
 .main {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+.navigation{
+display: flex;
+justify-content: space-around;
+height: 50px;
+align-items: center;
+}
 .navigation__link {
-  color: #D90368;
+  color: rgb(10, 9, 9);
   font-weight: 900;
-  padding: 0 5px;
+  padding: 0 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(215,207,207,0) 50%);
 }
 .navigation__link--homepage {
-background-color: rgba(250, 246, 246, 0.911);
+ 
 }
 p {
   background-color: rgb(200, 189, 226);
   font-style: italic;
-  color: #DD1C1A;
+  color: rgb(53, 51, 51);
 }
 #top {
   font-size: 45px;
-  color: #702c2c;
+ 
 }
 
 .week-summary__destription {
-  background-color: rgba(250, 246, 246, 0.911);
-}
-.about__link {
-  color: #D90368;
+  background: rgb(182,174,174);
+background: linear-gradient(344deg, rgba(182,174,174,0.21332282913165268) 27%, rgba(239,236,236,0) 49%);
+
 }
 .footer {
   max-width: 1000px;
@@ -73,9 +84,13 @@ p {
   font-size: unset;
 }
 .footer__i {
-  color: #DD1C1A;
+  color: rgb(10, 9, 9);
 }
 .week-summary__destription--reverse {
-  color: #DD1C1A;
+  color: rgb(53, 51, 51);
   font-weight: bold;
+}
+
+.empty {
+  margin: 50px;
 }
