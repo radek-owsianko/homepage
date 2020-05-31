@@ -29,3 +29,11 @@ function createContent (querySelectorContenet, content) {
 }
 
 createContent(".main_header__h1--js", `Radzio Włądzio ku ku ku ka:) ha ha`);
+
+
+const change_img = (takeImg, newContent) => {
+    const something = document.querySelector(takeImg);
+    something.innerHTML = newContent;
+}
+
+change_img (".main_header__h1--js",`A to jest nowy Content stworzony za pomocą JAvaScrptu:)`);
